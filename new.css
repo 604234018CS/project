@@ -1,0 +1,118 @@
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/pic5.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.navbar:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+img
+{
+    width: 100px;
+    height: 90px;
+}
+
+th
+{
+    font-size: 2em;
+    background-color: #f9ddff;
+    padding: 20px;
+}
+
+body
+{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 1em;
+    text-align: center ;
+    background-color: rgb(235, 25, 154);
+}
+
+table
+{
+    background-color: white;
+    width: 60%;
+}
+
+td
+{
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/pic11.jpg);
+    overflow: hidden;
+}
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: sarabun;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+}
+.card-image {
+    grid-area: image;
+    background: url(img/pic10.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-text {
+    grid-area: text;
+    margin: 25px;
+}
+.card-stats {
+    grid-area: stats;
+} */ 

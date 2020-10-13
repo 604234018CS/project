@@ -1,0 +1,60 @@
+
+    body
+    {
+        font-family: sans-serif;
+        font-size: 0.9rem;
+        line-height: 1.5em;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/pic5.jpg);
+        background-size: cover;
+        background-position: center;
+        font-family: 'Sarabun', sans-serif;
+    }
+    table
+    {
+       border: 1px solid black;
+       border-collapse: collapse;
+       opacity: 0.95;
+       width: 85%;
+    }
+
+.navbar:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+th
+{
+    background: #a70000;
+    color: white;
+}
+tr:nth-child(even)
+{
+    background: #e8e8e8;
+}
+
+tr:nth-child(odd)
+{
+    background: white;
+}
+
+.header
+{
+    background: #005cb7;
+    color: white;
+}
+
+th, td
+{
+    text-align: center;
+    padding: 10px;
+}
+article
+{
+    overflow: auto;
+}
